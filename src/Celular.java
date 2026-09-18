@@ -11,4 +11,37 @@ public class Celular extends Hardware {
         this.tipoTela = tipoTela;
         this.sistemaOperacional = sistemaOperacional;
     }
+
+    public int getNumeroCameras() {
+        return numeroCameras;
+    }
+
+    public void setNumeroCameras(int numeroCameras) {
+        this.numeroCameras = numeroCameras;
+    }
+
+    public float getTamanhoTela() {
+        return tamanhoTela;
+    }
+
+    public void setTamanhoTela(float tamanhoTela) {
+        this.tamanhoTela = tamanhoTela;
+    }
+
+    public String getTipoTela() {
+        return tipoTela;
+    }
+
+    public void setTipoTela(String tipoTela) {
+        this.tipoTela = tipoTela;
+    }
+
+    public String getSistemaOperacional() {
+        return sistemaOperacional;
+    }
+
+    public void setSistemaOperacional(String sistemaOperacional) {
+        this.sistemaOperacional = sistemaOperacional;
+    }
+
 }
