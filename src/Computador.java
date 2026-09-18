@@ -1,7 +1,7 @@
 public class Computador extends Hardware {
-    private String genero;
+    private String genero; // Desktop ou laptop
     private String sistemaOperacional;
-    private String tipo;
+    private String tipo; // Gamer, escritório ou lazer
 
     public Computador(Fabricante fabricante, String processador, String memoria, String armazenamento, String genero, String sistemaOperacional, String tipo) {
         super(fabricante, processador, memoria, armazenamento);
@@ -9,4 +9,30 @@ public class Computador extends Hardware {
         this.sistemaOperacional = sistemaOperacional;
         this.tipo = tipo;
     }
+
+    public String getGenero() {
+        return genero;
+    }
+
+    public void setGenero(String genero) {
+        this.genero = genero;
+    }
+
+    public String getSistemaOperacional() {
+        return sistemaOperacional;
+    }
+
+    public void setSistemaOperacional(String sistemaOperacional) {
+        this.sistemaOperacional = sistemaOperacional;
+    }
+
+    public String getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+
+    
 }
