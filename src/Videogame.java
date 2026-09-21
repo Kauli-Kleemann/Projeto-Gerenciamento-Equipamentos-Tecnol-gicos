@@ -34,4 +34,12 @@ public class Videogame extends Hardware {
         this.leitorDisco = leitorDisco;
     }
 
+    public String toString() {
+        return "\n\n Videogame\n\n - Fabricante: " + getFabricante().getNome() +
+        "\n - Processador: " + getProcessador() + "\n - Memória: " + getMemoria() +
+        "\n - Armazenamento: " + getArmazenamento() + "\n - Versão: " + getVersao() +
+        "\n - Suporte a Sensor de Movimento: " + isSensorMovimento() + 
+        "\n - Possui Leitor de Disco: " + isLeitorDisco();
+    }
+
 }

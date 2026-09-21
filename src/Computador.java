@@ -34,5 +34,12 @@ public class Computador extends Hardware {
         this.tipo = tipo;
     }
 
-    
+    public String toString() {
+        return "\n\n Computador\n\n - Fabricante: " + getFabricante().getNome() +
+        "\n - Processador: " + getProcessador() + "\n - Memória: " + getMemoria() +
+        "\n - Armazenamento: " + getArmazenamento() + "\n - Gênero: " + getGenero() +
+        "\n - Sistema Operacional: " + getSistemaOperacional() + "\n - Tipo: " + getTipo();
+    }
+
+
 }

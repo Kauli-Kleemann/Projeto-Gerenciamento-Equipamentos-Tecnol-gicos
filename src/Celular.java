@@ -44,4 +44,12 @@ public class Celular extends Hardware {
         this.sistemaOperacional = sistemaOperacional;
     }
 
+    public String toString() {
+        return "\n\n Celular\n\n - Fabricante: " + getFabricante().getNome() +
+        "\n - Processador: " + getProcessador() + "\n - Memória: " + getMemoria() +
+        "\n - Armazenamento: " + getArmazenamento() + "\n - Número de Câmeras: " + getNumeroCameras() +
+        "\n - Sistema Operacional: " + getSistemaOperacional() + "\n - Tamanho da Tela: " + getTamanhoTela() + 
+        "\n - Tipo da Tela: " + getTipoTela();
+    }
+
 }
