@@ -9,6 +9,13 @@ public class Fabricante {
         this.paisOrigem = paisOrigem;
     }
 
+    // Sobrecarga: construtor sem o site
+    public Fabricante(String nome, String paisOrigem) {
+        this.nome = nome;
+        this.paisOrigem = paisOrigem;
+        this.site = null; // ou poderia ser ""
+    }
+
     public String getNome() {
         return nome;
     }
